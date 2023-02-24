@@ -70,7 +70,7 @@ const getData = (event) => {
     if(startDate == '' || startDate == null) return alert('Date is required')
     if(endDate == '' || endDate == null) return alert('Date is required')
     if(description == '' || description == null) return alert(' Description is required')
-    if(!nodejs.checked && !nextjs.checked && !reactjs.checked && !typescript.checked) return alert('Checklist technologies required')
+    if(!nodejs.checked && !nextjs.checked && !reactjs.checked && !typescript.checked) return alert('Technologies is required')
 
     let data = {
         projectName,
