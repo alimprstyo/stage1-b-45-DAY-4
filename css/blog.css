@@ -176,10 +176,11 @@ h3{
     border-radius: 10px;
 }
 .card h4 {
+    font-size: 20px;
     margin-top: 10px;
 }
 .card span {
-    font-size: 15px;
+    font-size: 13px;
     color: #524e4c;
 }
 .card p {
