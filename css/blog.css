@@ -68,7 +68,8 @@ li {
     font-weight: bolder;
 }
 .dateInput {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
 }
 #projectName,#startDate,#endDate,textarea{
     width: 100%;
